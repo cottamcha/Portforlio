@@ -80,23 +80,18 @@ const projects = (await getCollection("work"))
 
       <section class="section with-background bg-variant">
         <header class="section-header stack gap-2 lg:gap-4">
-          <h3>Mentions</h3>
+          <h3>Some of my favourite tools</h3>
           <p>
-            I have been fortunate enough to recieve praise for my work in
-            several publications. Take a look below to learn more.
+            I have acquired proficiency in a broad array of technologies, which
+            have become integral tools in my day-to-day work. These include but
+            are not limited to:
           </p>
         </header>
 
         <div class="gallery">
           <Grid variant="small">
             {
-              [
-                "Medium",
-                "BuzzFeed",
-                "The Next Web",
-                "awwwards.",
-                "TechCrunch",
-              ].map((brand) => (
+              ["SolidJS", "React", "NextJS", "Astro", "Vite"].map((brand) => (
                 <li class="mention-card">
                   <p>{brand}</p>
                 </li>
@@ -153,6 +148,14 @@ const projects = (await getCollection("work"))
   }
 
   /* ====================================================== */
+
+  header h3 {
+    font-weight: 800;
+  }
+
+  header p {
+    font-weight: 600;
+  }
 
   .section {
     display: grid;
@@ -235,8 +238,9 @@ const projects = (await getCollection("work"))
   /* ====================================================== */
 
   .mention-card {
+    font-weight: 600;
     display: flex;
-    height: 7rem;
+    height: 5rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -250,7 +254,7 @@ const projects = (await getCollection("work"))
   @media (min-width: 50em) {
     .mention-card {
       border-radius: 1.5rem;
-      height: 9.5rem;
+      height: 6rem;
     }
   }
 </style>
