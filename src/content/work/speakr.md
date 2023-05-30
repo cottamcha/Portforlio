@@ -1,7 +1,7 @@
 ---
 title: Speakr
 publishDate: 2023-03-15 00:00:00
-img: /assets/stock-2.jpg
+img: /assets/stock-2.webp
 img_alt: Screenshot of a website called speaker
 description: |
   My first SolidJS project

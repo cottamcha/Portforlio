@@ -1,7 +1,7 @@
 ---
 title: Drinking Water Inspectorate
 publishDate: 2020-03-04 00:00:00
-img: /assets/stock-1.jpg
+img: /assets/stock-1.webp
 img_alt: A screenshot of the drinkning water inspectorate website.
 description: |
   I helped transer content to the new DWI website.
