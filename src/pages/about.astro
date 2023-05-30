@@ -3,6 +3,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
+import Pill from "../components/Pill.astro";
+
+const skills = [
+  "HTML",
+  "Javascript",
+  "Typescript",
+  "CSS",
+  "SolidJS",
+  "Git/Github",
+  "Astro",
+  "Wordpress",
+  "React",
+  "React Native",
+  "NextJS",
+  "Gatsby",
+  "MillionJS",
+];
 ---
 
 <BaseLayout
@@ -54,7 +71,9 @@ import Hero from "../components/Hero.astro";
       <section>
         <h2 class="section-title">Skills</h2>
         <div class="content">
-          <p>officia unde omnis</p>
+          <div class="pill-container">
+            {skills.map((skill) => <Pill>{skill}</Pill>)}
+          </div>
         </div>
       </section>
     </main>
@@ -81,6 +100,14 @@ import Hero from "../components/Hero.astro";
     flex-direction: column;
     gap: 0.5rem;
     color: var(--gray-200);
+  }
+
+  .pill-container {
+    display: flex;
+    justify-content: start;
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .section-title {

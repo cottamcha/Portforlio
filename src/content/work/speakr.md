@@ -19,3 +19,5 @@ This project, built primarily using SolidJS, gave me a hands-on experience in wo
 The web application has a bespoke design, mirroring key functionalities of Twitter, while also demonstrating my unique styling and design skills. Though the project has some yet-to-be-implemented features, it serves as a testament to my ability to conceptualize, design, and initiate a project from the ground up.
 
 This endeavor allowed me to familiarize myself with SolidJS and Vite, ultimately fostering a deeper understanding of frontend development and performance optimization.
+
+<a href="https://speakr-delta.vercel.app/">Visit Speakr</a>
